@@ -8,8 +8,7 @@ public class Pattern7 {
         // taking input
         int n = scn.nextInt();
         scn.close();
-        // Initiate number of stars as well as number of spaces to be printed in first line
-        int star = 1;
+        // Initiate number of spaces to be printed in first line
         int nspaces = 0;
 
         // this loop execute for n times as we have to print n rows
@@ -21,13 +20,9 @@ public class Pattern7 {
                 System.out.print("\t");
             }
 
-            // this loop print required number of stars in a row with a tab
-            for (int j = 0; j < star; j++) {
-                System.out.print("*\t");
-            }
-            System.out.println();
+            // this will print required number of stars in a row with a tab
+            System.out.println("*\t");
 
-            //No need to update star
             // update spaces as per the requirement in next iteration
             nspaces++;
         }

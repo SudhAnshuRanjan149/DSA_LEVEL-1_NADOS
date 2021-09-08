@@ -12,16 +12,16 @@ public class Pattern4 {
         int nstars = n;
         int nspaces = 0;
 
-        // this loop execute for n times as we have to print n rows
+        // this loop executes for n times as we have to print n rows
         for (int i = 0; i < n; i++) {
 
             // System.out.println(nstars+ " "+ nspaces);
-            // this loop print required number of spaces in a row with a tab
+            // this loop prints required number of spaces in a row with a tab
             for (int j = 0; j < nspaces; j++) {
                 System.out.print("\t");
             }
 
-            // this loop print required number of stars in a row with a tab
+            // this loop prints required number of stars in a row with a tab
             for (int j = 0; j < nstars; j++) {
                 System.out.print("*\t");
             }

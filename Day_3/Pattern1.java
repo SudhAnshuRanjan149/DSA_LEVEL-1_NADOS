@@ -10,14 +10,14 @@ public class Pattern1 {
         // Initiate number of stars to be printed in first line
         int nstars = 1;
 
-        // this loop execute for n times as we have to print n rows
+        // this loop executes for n times as we have to print n rows
         for (int i = 0; i < n; i++) {
-            // this loop print required number of stars in a row with a tab
+            // this loop prints required number of stars in a row with a tab
             for (int j = 0; j < nstars; j++) {
                 System.out.print("*\t");
             }
             System.out.println();
-            
+
             // update stars,so we can increase stars in next iteration
             nstars++;
         }
